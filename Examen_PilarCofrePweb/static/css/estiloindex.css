@@ -1,0 +1,46 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+
+
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    background-color: #c4079a;
+    color: white;
+    border-radius: 15x;0p
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    background-color: #37be00;
+    color: white;
+    border-radius: 15x;0p
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    /*ursor: pointer;
+    transition: background-color 0.3s ease;*/
+  }
+
+
+
